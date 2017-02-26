@@ -1,10 +1,8 @@
 A basic game project using Urho3D fork as base
 
 Only these:
-[TOC]
-	
+(BESS)	
     bin
-    cmake
     engine
     scripts
     src
