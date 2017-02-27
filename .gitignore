@@ -4,6 +4,7 @@ bin/
 /cmake_scripts
 /CMakeFiles
 CMakeFiles/
+/toolchain
 /legal/
 /bin/*
 !/bin/**/
