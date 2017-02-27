@@ -167,33 +167,6 @@ walkers/fast:
 	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/build
 .PHONY : walkers/fast
 
-src/character.o: src/character.cpp.o
-
-.PHONY : src/character.o
-
-# target to build an object file
-src/character.cpp.o:
-	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/character.cpp.o
-.PHONY : src/character.cpp.o
-
-src/character.i: src/character.cpp.i
-
-.PHONY : src/character.i
-
-# target to preprocess a source file
-src/character.cpp.i:
-	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/character.cpp.i
-.PHONY : src/character.cpp.i
-
-src/character.s: src/character.cpp.s
-
-.PHONY : src/character.s
-
-# target to generate assembly for a file
-src/character.cpp.s:
-	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/character.cpp.s
-.PHONY : src/character.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -220,33 +193,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/object.o: src/object.cpp.o
-
-.PHONY : src/object.o
-
-# target to build an object file
-src/object.cpp.o:
-	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/object.cpp.o
-.PHONY : src/object.cpp.o
-
-src/object.i: src/object.cpp.i
-
-.PHONY : src/object.i
-
-# target to preprocess a source file
-src/object.cpp.i:
-	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/object.cpp.i
-.PHONY : src/object.cpp.i
-
-src/object.s: src/object.cpp.s
-
-.PHONY : src/object.s
-
-# target to generate assembly for a file
-src/object.cpp.s:
-	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/object.cpp.s
-.PHONY : src/object.cpp.s
 
 src/ragdoll.o: src/ragdoll.cpp.o
 
@@ -288,15 +234,9 @@ help:
 	@echo "... install"
 	@echo "... walkers"
 	@echo "... list_install_components"
-	@echo "... src/character.o"
-	@echo "... src/character.i"
-	@echo "... src/character.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/object.o"
-	@echo "... src/object.i"
-	@echo "... src/object.s"
 	@echo "... src/ragdoll.o"
 	@echo "... src/ragdoll.i"
 	@echo "... src/ragdoll.s"

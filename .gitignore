@@ -3,6 +3,7 @@ bin/
 /build
 /cmake_scripts
 /CMakeFiles
+CMakeFiles/
 /legal/
 /bin/*
 !/bin/**/

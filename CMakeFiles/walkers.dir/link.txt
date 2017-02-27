@@ -1,1 +1,0 @@
-/usr/sbin/c++   -Wno-invalid-offsetof -march=native -ffast-math -pthread -fdiagnostics-color=auto -O3 -DNDEBUG    CMakeFiles/walkers.dir/src/character.cpp.o CMakeFiles/walkers.dir/src/main.cpp.o CMakeFiles/walkers.dir/src/object.cpp.o CMakeFiles/walkers.dir/src/ragdoll.cpp.o  -o bin/walkers -rdynamic /home/garg/urho/Urho3D/build/lib/libUrho3D.a -ldl -lm -lrt -lGL 
