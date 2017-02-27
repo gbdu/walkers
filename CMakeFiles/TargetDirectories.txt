@@ -1,0 +1,7 @@
+/home/garg/code/games/walkers/CMakeFiles/install/strip.dir
+/home/garg/code/games/walkers/CMakeFiles/install/local.dir
+/home/garg/code/games/walkers/CMakeFiles/rebuild_cache.dir
+/home/garg/code/games/walkers/CMakeFiles/edit_cache.dir
+/home/garg/code/games/walkers/CMakeFiles/install.dir
+/home/garg/code/games/walkers/CMakeFiles/walkers.dir
+/home/garg/code/games/walkers/CMakeFiles/list_install_components.dir
