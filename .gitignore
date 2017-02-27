@@ -3,6 +3,8 @@ bin/
 /build
 /cmake_scripts
 /CMakeFiles
+/Makefile
+/toolchain
 CMakeFiles/
 /toolchain
 /legal/

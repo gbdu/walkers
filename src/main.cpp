@@ -36,7 +36,6 @@
 
 #include <Urho3D/DebugNew.h>
 #include "ragdoll.h"
-#include "character.h"
 
 static const String INSTRUCTION("instructionText");
 
@@ -271,8 +270,8 @@ void CrowdNavigation::SubscribeToEvents()
 
 void CrowdNavigation::SpawnJack(const Vector3& pos, Node* jackGroup)
 {
-    character * p = new character();
-    character.spawn(pos, jackGroup);
+    //character * p = new character();
+    //character.spawn(pos, jackGroup);
 }
 
 void CrowdNavigation::CreateMushroom(const Vector3& pos)
