@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/walkers.dir/src/character.cpp.o"
   "CMakeFiles/walkers.dir/src/main.cpp.o"
+  "CMakeFiles/walkers.dir/src/object.cpp.o"
   "CMakeFiles/walkers.dir/src/ragdoll.cpp.o"
   "bin/walkers.pdb"
   "bin/walkers"

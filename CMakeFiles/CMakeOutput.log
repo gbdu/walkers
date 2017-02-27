@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/garg/code/games/walkers/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_9776e/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_9776e.dir/build.make CMakeFiles/cmTC_9776e.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_9d7ef/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_9d7ef.dir/build.make CMakeFiles/cmTC_9d7ef.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9776e.dir/testCCompiler.c.o
-/usr/sbin/cc     -o CMakeFiles/cmTC_9776e.dir/testCCompiler.c.o   -c /home/garg/code/games/walkers/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_9776e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9776e.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_9776e.dir/testCCompiler.c.o  -o cmTC_9776e -rdynamic 
+Building C object CMakeFiles/cmTC_9d7ef.dir/testCCompiler.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_9d7ef.dir/testCCompiler.c.o   -c /home/garg/code/games/walkers/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9d7ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d7ef.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_9d7ef.dir/testCCompiler.c.o  -o cmTC_9d7ef -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_ab80b/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_ab80b.dir/build.make CMakeFiles/cmTC_ab80b.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_77df3/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_77df3.dir/build.make CMakeFiles/cmTC_77df3.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o
-/usr/sbin/cc     -o CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ab80b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab80b.dir/link.txt --verbose=1
-/usr/sbin/cc      -v CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o  -o cmTC_ab80b -rdynamic  
+Building C object CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o
+/usr/sbin/cc     -o CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_77df3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77df3.dir/link.txt --verbose=1
+/usr/sbin/cc      -v CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o  -o cmTC_77df3 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/sbin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper
@@ -59,9 +59,9 @@ Thread model: posix
 gcc version 6.3.1 20170109 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab80b' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cck7hwUv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ab80b /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab80b' '-rdynamic' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77df3' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw0HPmh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77df3 /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77df3' '-rdynamic' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_ab80b/fast"]
-  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_ab80b.dir/build.make CMakeFiles/cmTC_ab80b.dir/build]
+  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_77df3/fast"]
+  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_77df3.dir/build.make CMakeFiles/cmTC_77df3.dir/build]
   ignore line: [make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/sbin/cc     -o CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ab80b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab80b.dir/link.txt --verbose=1]
-  ignore line: [/usr/sbin/cc      -v CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o  -o cmTC_ab80b -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/sbin/cc     -o CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_77df3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77df3.dir/link.txt --verbose=1]
+  ignore line: [/usr/sbin/cc      -v CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o  -o cmTC_77df3 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/sbin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.1 20170109 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab80b' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cck7hwUv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ab80b /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_77df3' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw0HPmh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_77df3 /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cck7hwUv.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccw0HPmh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ab80b] ==> ignore
+    arg [cmTC_77df3] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o] ==> ignore
@@ -116,7 +116,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..]
-    arg [CMakeFiles/cmTC_ab80b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_77df3.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -147,14 +147,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_388d8/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_388d8.dir/build.make CMakeFiles/cmTC_388d8.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_8e6e1/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_8e6e1.dir/build.make CMakeFiles/cmTC_8e6e1.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_388d8.dir/feature_tests.c.o
-/usr/sbin/cc    -std=c11 -o CMakeFiles/cmTC_388d8.dir/feature_tests.c.o   -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.c
-Linking C executable cmTC_388d8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_388d8.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_388d8.dir/feature_tests.c.o  -o cmTC_388d8 -rdynamic 
+Building C object CMakeFiles/cmTC_8e6e1.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c11 -o CMakeFiles/cmTC_8e6e1.dir/feature_tests.c.o   -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8e6e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e6e1.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_8e6e1.dir/feature_tests.c.o  -o cmTC_8e6e1 -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
@@ -167,14 +167,14 @@ make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_6dd85/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_6dd85.dir/build.make CMakeFiles/cmTC_6dd85.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_3aa27/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_3aa27.dir/build.make CMakeFiles/cmTC_3aa27.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6dd85.dir/feature_tests.c.o
-/usr/sbin/cc    -std=c99 -o CMakeFiles/cmTC_6dd85.dir/feature_tests.c.o   -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6dd85
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dd85.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_6dd85.dir/feature_tests.c.o  -o cmTC_6dd85 -rdynamic 
+Building C object CMakeFiles/cmTC_3aa27.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c99 -o CMakeFiles/cmTC_3aa27.dir/feature_tests.c.o   -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3aa27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aa27.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_3aa27.dir/feature_tests.c.o  -o cmTC_3aa27 -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
@@ -187,14 +187,14 @@ make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_f5467/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_f5467.dir/build.make CMakeFiles/cmTC_f5467.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_7f598/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_7f598.dir/build.make CMakeFiles/cmTC_7f598.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f5467.dir/feature_tests.c.o
-/usr/sbin/cc    -std=c90 -o CMakeFiles/cmTC_f5467.dir/feature_tests.c.o   -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f5467
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5467.dir/link.txt --verbose=1
-/usr/sbin/cc       CMakeFiles/cmTC_f5467.dir/feature_tests.c.o  -o cmTC_f5467 -rdynamic 
+Building C object CMakeFiles/cmTC_7f598.dir/feature_tests.c.o
+/usr/sbin/cc    -std=c90 -o CMakeFiles/cmTC_7f598.dir/feature_tests.c.o   -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7f598
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f598.dir/link.txt --verbose=1
+/usr/sbin/cc       CMakeFiles/cmTC_7f598.dir/feature_tests.c.o  -o cmTC_7f598 -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
@@ -205,28 +205,28 @@ make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_1ae2b/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_1ae2b.dir/build.make CMakeFiles/cmTC_1ae2b.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_8fd62/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_8fd62.dir/build.make CMakeFiles/cmTC_8fd62.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1ae2b.dir/testCXXCompiler.cxx.o
-/usr/sbin/c++      -o CMakeFiles/cmTC_1ae2b.dir/testCXXCompiler.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1ae2b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ae2b.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_1ae2b.dir/testCXXCompiler.cxx.o  -o cmTC_1ae2b -rdynamic 
+Building CXX object CMakeFiles/cmTC_8fd62.dir/testCXXCompiler.cxx.o
+/usr/sbin/c++      -o CMakeFiles/cmTC_8fd62.dir/testCXXCompiler.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8fd62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fd62.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_8fd62.dir/testCXXCompiler.cxx.o  -o cmTC_8fd62 -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_52e71/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_52e71.dir/build.make CMakeFiles/cmTC_52e71.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_76f7c/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_76f7c.dir/build.make CMakeFiles/cmTC_76f7c.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o
-/usr/sbin/c++      -o CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_52e71
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52e71.dir/link.txt --verbose=1
-/usr/sbin/c++       -v CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_52e71 -rdynamic  
+Building CXX object CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/sbin/c++      -o CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_76f7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f7c.dir/link.txt --verbose=1
+/usr/sbin/c++       -v CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_76f7c -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/sbin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper
@@ -236,9 +236,9 @@ Thread model: posix
 gcc version 6.3.1 20170109 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52e71' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrmSd1y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_52e71 /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52e71' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76f7c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD1wq8v.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_76f7c /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76f7c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
@@ -246,14 +246,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_52e71/fast"]
-  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_52e71.dir/build.make CMakeFiles/cmTC_52e71.dir/build]
+  ignore line: [Run Build Command:"/usr/sbin/make" "cmTC_76f7c/fast"]
+  ignore line: [/usr/sbin/make -f CMakeFiles/cmTC_76f7c.dir/build.make CMakeFiles/cmTC_76f7c.dir/build]
   ignore line: [make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/sbin/c++      -o CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_52e71]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52e71.dir/link.txt --verbose=1]
-  ignore line: [/usr/sbin/c++       -v CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_52e71 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/sbin/c++      -o CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_76f7c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f7c.dir/link.txt --verbose=1]
+  ignore line: [/usr/sbin/c++       -v CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_76f7c -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/sbin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper]
@@ -263,13 +263,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.1 20170109 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52e71' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrmSd1y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_52e71 /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_76f7c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD1wq8v.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_76f7c /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../.. CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtend.o /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccrmSd1y.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccD1wq8v.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -284,7 +284,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_52e71] ==> ignore
+    arg [cmTC_76f7c] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/crtbegin.o] ==> ignore
@@ -293,7 +293,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../..]
-    arg [CMakeFiles/cmTC_52e71.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_76f7c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -322,14 +322,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_6b56e/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_6b56e.dir/build.make CMakeFiles/cmTC_6b56e.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_3e042/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_3e042.dir/build.make CMakeFiles/cmTC_3e042.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6b56e.dir/feature_tests.cxx.o
-/usr/sbin/c++     -std=c++14 -o CMakeFiles/cmTC_6b56e.dir/feature_tests.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6b56e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b56e.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_6b56e.dir/feature_tests.cxx.o  -o cmTC_6b56e -rdynamic 
+Building CXX object CMakeFiles/cmTC_3e042.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++14 -o CMakeFiles/cmTC_3e042.dir/feature_tests.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3e042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e042.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_3e042.dir/feature_tests.cxx.o  -o cmTC_3e042 -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
@@ -395,14 +395,14 @@ make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_f5aa8/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_f5aa8.dir/build.make CMakeFiles/cmTC_f5aa8.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_f7dbe/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_f7dbe.dir/build.make CMakeFiles/cmTC_f7dbe.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f5aa8.dir/feature_tests.cxx.o
-/usr/sbin/c++     -std=c++11 -o CMakeFiles/cmTC_f5aa8.dir/feature_tests.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f5aa8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5aa8.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_f5aa8.dir/feature_tests.cxx.o  -o cmTC_f5aa8 -rdynamic 
+Building CXX object CMakeFiles/cmTC_f7dbe.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++11 -o CMakeFiles/cmTC_f7dbe.dir/feature_tests.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f7dbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7dbe.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_f7dbe.dir/feature_tests.cxx.o  -o cmTC_f7dbe -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 
@@ -468,14 +468,14 @@ make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/garg/code/games/walkers/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/sbin/make" "cmTC_70d21/fast"
-/usr/sbin/make -f CMakeFiles/cmTC_70d21.dir/build.make CMakeFiles/cmTC_70d21.dir/build
+Run Build Command:"/usr/sbin/make" "cmTC_43999/fast"
+/usr/sbin/make -f CMakeFiles/cmTC_43999.dir/build.make CMakeFiles/cmTC_43999.dir/build
 make[1]: Entering directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_70d21.dir/feature_tests.cxx.o
-/usr/sbin/c++     -std=c++98 -o CMakeFiles/cmTC_70d21.dir/feature_tests.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_70d21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70d21.dir/link.txt --verbose=1
-/usr/sbin/c++        CMakeFiles/cmTC_70d21.dir/feature_tests.cxx.o  -o cmTC_70d21 -rdynamic 
+Building CXX object CMakeFiles/cmTC_43999.dir/feature_tests.cxx.o
+/usr/sbin/c++     -std=c++98 -o CMakeFiles/cmTC_43999.dir/feature_tests.cxx.o -c /home/garg/code/games/walkers/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_43999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43999.dir/link.txt --verbose=1
+/usr/sbin/c++        CMakeFiles/cmTC_43999.dir/feature_tests.cxx.o  -o cmTC_43999 -rdynamic 
 make[1]: Leaving directory '/home/garg/code/games/walkers/CMakeFiles/CMakeTmp'
 
 

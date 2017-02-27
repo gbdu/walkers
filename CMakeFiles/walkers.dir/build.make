@@ -57,9 +57,33 @@ include CMakeFiles/walkers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/walkers.dir/flags.make
 
+CMakeFiles/walkers.dir/src/character.cpp.o: CMakeFiles/walkers.dir/flags.make
+CMakeFiles/walkers.dir/src/character.cpp.o: src/character.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/walkers.dir/src/character.cpp.o"
+	/usr/sbin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/walkers.dir/src/character.cpp.o -c /home/garg/code/games/walkers/src/character.cpp
+
+CMakeFiles/walkers.dir/src/character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/walkers.dir/src/character.cpp.i"
+	/usr/sbin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garg/code/games/walkers/src/character.cpp > CMakeFiles/walkers.dir/src/character.cpp.i
+
+CMakeFiles/walkers.dir/src/character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/walkers.dir/src/character.cpp.s"
+	/usr/sbin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garg/code/games/walkers/src/character.cpp -o CMakeFiles/walkers.dir/src/character.cpp.s
+
+CMakeFiles/walkers.dir/src/character.cpp.o.requires:
+
+.PHONY : CMakeFiles/walkers.dir/src/character.cpp.o.requires
+
+CMakeFiles/walkers.dir/src/character.cpp.o.provides: CMakeFiles/walkers.dir/src/character.cpp.o.requires
+	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/character.cpp.o.provides.build
+.PHONY : CMakeFiles/walkers.dir/src/character.cpp.o.provides
+
+CMakeFiles/walkers.dir/src/character.cpp.o.provides.build: CMakeFiles/walkers.dir/src/character.cpp.o
+
+
 CMakeFiles/walkers.dir/src/main.cpp.o: CMakeFiles/walkers.dir/flags.make
 CMakeFiles/walkers.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/walkers.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/walkers.dir/src/main.cpp.o"
 	/usr/sbin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/walkers.dir/src/main.cpp.o -c /home/garg/code/games/walkers/src/main.cpp
 
 CMakeFiles/walkers.dir/src/main.cpp.i: cmake_force
@@ -81,9 +105,33 @@ CMakeFiles/walkers.dir/src/main.cpp.o.provides: CMakeFiles/walkers.dir/src/main.
 CMakeFiles/walkers.dir/src/main.cpp.o.provides.build: CMakeFiles/walkers.dir/src/main.cpp.o
 
 
+CMakeFiles/walkers.dir/src/object.cpp.o: CMakeFiles/walkers.dir/flags.make
+CMakeFiles/walkers.dir/src/object.cpp.o: src/object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/walkers.dir/src/object.cpp.o"
+	/usr/sbin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/walkers.dir/src/object.cpp.o -c /home/garg/code/games/walkers/src/object.cpp
+
+CMakeFiles/walkers.dir/src/object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/walkers.dir/src/object.cpp.i"
+	/usr/sbin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/garg/code/games/walkers/src/object.cpp > CMakeFiles/walkers.dir/src/object.cpp.i
+
+CMakeFiles/walkers.dir/src/object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/walkers.dir/src/object.cpp.s"
+	/usr/sbin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/garg/code/games/walkers/src/object.cpp -o CMakeFiles/walkers.dir/src/object.cpp.s
+
+CMakeFiles/walkers.dir/src/object.cpp.o.requires:
+
+.PHONY : CMakeFiles/walkers.dir/src/object.cpp.o.requires
+
+CMakeFiles/walkers.dir/src/object.cpp.o.provides: CMakeFiles/walkers.dir/src/object.cpp.o.requires
+	$(MAKE) -f CMakeFiles/walkers.dir/build.make CMakeFiles/walkers.dir/src/object.cpp.o.provides.build
+.PHONY : CMakeFiles/walkers.dir/src/object.cpp.o.provides
+
+CMakeFiles/walkers.dir/src/object.cpp.o.provides.build: CMakeFiles/walkers.dir/src/object.cpp.o
+
+
 CMakeFiles/walkers.dir/src/ragdoll.cpp.o: CMakeFiles/walkers.dir/flags.make
 CMakeFiles/walkers.dir/src/ragdoll.cpp.o: src/ragdoll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/walkers.dir/src/ragdoll.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/walkers.dir/src/ragdoll.cpp.o"
 	/usr/sbin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/walkers.dir/src/ragdoll.cpp.o -c /home/garg/code/games/walkers/src/ragdoll.cpp
 
 CMakeFiles/walkers.dir/src/ragdoll.cpp.i: cmake_force
@@ -107,18 +155,22 @@ CMakeFiles/walkers.dir/src/ragdoll.cpp.o.provides.build: CMakeFiles/walkers.dir/
 
 # Object files for target walkers
 walkers_OBJECTS = \
+"CMakeFiles/walkers.dir/src/character.cpp.o" \
 "CMakeFiles/walkers.dir/src/main.cpp.o" \
+"CMakeFiles/walkers.dir/src/object.cpp.o" \
 "CMakeFiles/walkers.dir/src/ragdoll.cpp.o"
 
 # External object files for target walkers
 walkers_EXTERNAL_OBJECTS =
 
+bin/walkers: CMakeFiles/walkers.dir/src/character.cpp.o
 bin/walkers: CMakeFiles/walkers.dir/src/main.cpp.o
+bin/walkers: CMakeFiles/walkers.dir/src/object.cpp.o
 bin/walkers: CMakeFiles/walkers.dir/src/ragdoll.cpp.o
 bin/walkers: CMakeFiles/walkers.dir/build.make
 bin/walkers: /home/garg/urho/Urho3D/build/lib/libUrho3D.a
 bin/walkers: CMakeFiles/walkers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/walkers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/garg/code/games/walkers/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin/walkers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/walkers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,7 +178,9 @@ CMakeFiles/walkers.dir/build: bin/walkers
 
 .PHONY : CMakeFiles/walkers.dir/build
 
+CMakeFiles/walkers.dir/requires: CMakeFiles/walkers.dir/src/character.cpp.o.requires
 CMakeFiles/walkers.dir/requires: CMakeFiles/walkers.dir/src/main.cpp.o.requires
+CMakeFiles/walkers.dir/requires: CMakeFiles/walkers.dir/src/object.cpp.o.requires
 CMakeFiles/walkers.dir/requires: CMakeFiles/walkers.dir/src/ragdoll.cpp.o.requires
 
 .PHONY : CMakeFiles/walkers.dir/requires

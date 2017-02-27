@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/garg/code/games/walkers/src/character.cpp" "/home/garg/code/games/walkers/CMakeFiles/walkers.dir/src/character.cpp.o"
   "/home/garg/code/games/walkers/src/main.cpp" "/home/garg/code/games/walkers/CMakeFiles/walkers.dir/src/main.cpp.o"
+  "/home/garg/code/games/walkers/src/object.cpp" "/home/garg/code/games/walkers/CMakeFiles/walkers.dir/src/object.cpp.o"
   "/home/garg/code/games/walkers/src/ragdoll.cpp" "/home/garg/code/games/walkers/CMakeFiles/walkers.dir/src/ragdoll.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
