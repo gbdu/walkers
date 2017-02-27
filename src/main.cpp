@@ -270,8 +270,20 @@ void CrowdNavigation::SubscribeToEvents()
 
 void CrowdNavigation::SpawnJack(const Vector3& pos, Node* jackGroup)
 {
-    //character * p = new character();
-    //character.spawn(pos, jackGroup);
+    ResourceCache* cache = GetSubsystem<ResourceCache>();
+    SharedPtr<Node> jackNode(jackGroup->CreateChild("Jack"));
+    jackNode->SetPosition(pos);
+    AnimatedModel* modelObject = jackNode->CreateComponent<AnimatedModel>();
+    modelObject->SetModel(cache->GetResource<Model>("Models/Jack.mdl"));
+    modelObject->SetMaterial(cache->GetResource<Material>("Materials/Jack.xml"));
+    modelObject->SetCastShadows(true);
+    jackNode->CreateComponent<AnimationController>();
+
+    // Create a CrowdAgent component and set its height and realistic max speed/acceleration. Use default radius
+    CrowdAgent* agent = jackNode->CreateComponent<CrowdAgent>();
+    agent->SetHeight(2.0f);
+    agent->SetMaxSpeed(3.0f);
+    agent->SetMaxAccel(5.0f);
 }
 
 void CrowdNavigation::CreateMushroom(const Vector3& pos)
